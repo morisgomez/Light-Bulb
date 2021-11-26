@@ -1,0 +1,56 @@
+div {
+    margin: 250px 0px 50px 0px; 
+    text-align: center;
+  }
+
+  .grow { 
+  transition: all .2s ease-in-out; 
+  }
+  
+  .grow:hover { 
+  transform: scale(1.2); 
+  }
+  
+  #button-off {
+    margin: 50px 0px 70px 0px; 
+    padding: 15px;   
+    border: 2px solid;
+    border-radius: 10px; 
+    box-shadow: 0 0 20px #000000;
+    font-weight: bold;
+    font-size: 13px;
+    cursor: pointer;
+    color: white;
+    background: black;
+  }
+  
+  #button-on {
+    margin: 50px 0px 70px 50px; 
+    padding: 15px;
+    border: 2px solid;
+    border-radius: 10px; 
+    box-shadow: 0 0 20px #000000;
+    font-weight: bold;
+    font-size: 13px;
+    cursor: pointer;
+    color: white;
+    background: black;
+  }
+  
+  img {
+    border: 2px solid;
+    border-radius: 10px; 
+    box-shadow: 0 0 20px #000000;
+    padding: 50px;
+  }
+  
+  @media screen and (max-width: 500px) {
+     img {
+       width: 75px;
+       height: 100px;
+  }
+    
+    div {
+    margin: 50px 0px 0px 0px; 
+  }
+}
